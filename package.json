@@ -5,6 +5,10 @@
   "repository": "git@github.com:yoshimoto8/clean-react-firebase-monorepo.git",
   "author": "yoshimoto8 <yoyoyo427435@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "prettier --list-different './src/**/*.{js,ts,tsx,scss,json}'",
+    "lint:format": "prettier --write './src/**/*.{js,ts,tsx,scss,json}'"
+  },
   "devDependencies": {
     "lerna": "^3.13.4"
   }

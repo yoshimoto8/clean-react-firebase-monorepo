@@ -10,6 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "scripts": {
+    "build": "tsc"
+  },
   "files": [
     "lib"
   ],
@@ -20,10 +23,13 @@
     "type": "git",
     "url": "git+https://github.com/yoshimoto8/clean-react-firebase-monorepo.git"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
   "bugs": {
     "url": "https://github.com/yoshimoto8/clean-react-firebase-monorepo/issues"
+  },
+  "dependencies": {
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
   }
 }
