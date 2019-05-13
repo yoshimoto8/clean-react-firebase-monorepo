@@ -1,0 +1,29 @@
+{
+  "name": "@monorepo/web",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "yoshimoto8 <yoyoyo427435@gmail.com>",
+  "homepage": "https://github.com/yoshimoto8/clean-react-firebase-monorepo#readme",
+  "license": "ISC",
+  "main": "lib/web.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshimoto8/clean-react-firebase-monorepo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yoshimoto8/clean-react-firebase-monorepo/issues"
+  }
+}

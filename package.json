@@ -1,0 +1,11 @@
+{
+  "name": "clean-react-firebase-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yoshimoto8/clean-react-firebase-monorepo.git",
+  "author": "yoshimoto8 <yoyoyo427435@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.13.4"
+  }
+}
